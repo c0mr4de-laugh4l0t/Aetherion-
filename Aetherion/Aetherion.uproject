@@ -1,0 +1,13 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.0",
+  "Category": "",
+  "Description": "Aetherion - A mythic fantasy RPG",
+  "Modules": [
+    {
+      "Name": "Aetherion",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}
