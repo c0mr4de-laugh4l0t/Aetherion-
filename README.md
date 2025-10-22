@@ -19,22 +19,6 @@ It combines modern web technologies with a flexible architecture, making it idea
 -  **Rich UI Effects** — Parallax scrolling, animations, and immersive UI built in  
 -  **Easy Deployment** — Launch your game directly to the web in seconds
 
-##  Project Structure
-
-Aetherion-/
-│
-├─ index.html # Main landing page
-├─ aetherion/
-│ ├─ style/ # CSS & visual styling
-│ │ └─ main.css
-│ ├─ script/ # JS logic and animations
-│ │ └─ reveal.js
-│ └─ images/ # Backgrounds, screenshots, assets
-│
-└─ README.md
-
-bash
-Copy code
 
 ## 🕹️ First Game: **Shards of Aether**
 
