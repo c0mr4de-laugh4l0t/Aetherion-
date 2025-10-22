@@ -5,50 +5,64 @@
 ██─▀─███─▄█▀███─███─▄─██─▄█▀██─▄─▄██─██─██─██─█▄▀─██
 ▀▄▄▀▄▄▀▄▄▄▄▄▀▀▄▄▄▀▀▄▀▄▀▄▄▄▄▄▀▄▄▀▄▄▀▄▄▄▀▄▄▄▄▀▄▄▄▀▀▄▄▀
 
-# Aetherion  
 
-**Aetherion** is a 2D action–adventure RPG inspired by **Minecraft**, **Skyrim**, **Warframe**, and **Kingdoms of Amalur**.  
-You’ll explore a procedurally generated world filled with dungeons, resource gathering, fast-paced combat, and narrative-driven quests.  
+#  Aetherion
 
----
+Aetherion is a powerful and lightweight game engine designed to create immersive, story-driven, and visually stunning games.  
+It combines modern web technologies with a flexible architecture, making it ideal for indie developers and ambitious projects alike.
 
-## Features
-- **Procedural Exploration** – Traverse endless 2D biomes with caves, ruins, and ancient cities.  
-- **Combat Variety** – Mix melee combos, ranged weapons, and magic skills.  
-- **Crafting & Building** – Gather resources, forge weapons, and construct strongholds.  
-- **Progression System** – Unlock unique abilities inspired by myth and the Aether itself.  
-- **Quest-Driven Narrative** – Lore-rich storyline with branching choices.  
+##  Features
 
----
+-  **Lightweight Engine** — Fast, minimal, and optimized for smooth performance  
+-  **Modular Design** — Easy to extend and build custom game systems  
+-  **Cross-Platform** — Works seamlessly on desktop and mobile browsers  
+-  **Rich UI Effects** — Parallax scrolling, animations, and immersive UI built in  
+-  **Easy Deployment** — Launch your game directly to the web in seconds
 
-## Project Layout
+##  Project Structure
 
-Aetherion/  
-├── assets/        # Sprites, animations, tilesets, sound, music  
-├── src/           # Game scripts (Blueprints/C++)  
-├── scenes/        # Unreal levels, UI, combat, maps, etc.  
-├── docs/          # Design documents, story drafts, references  
-├── README.md      # Project overview (this file)  
-└── LICENSE        # License file  
+Aetherion-/
+│
+├─ index.html # Main landing page
+├─ aetherion/
+│ ├─ style/ # CSS & visual styling
+│ │ └─ main.css
+│ ├─ script/ # JS logic and animations
+│ │ └─ reveal.js
+│ └─ images/ # Backgrounds, screenshots, assets
+│
+└─ README.md
 
----
+bash
+Copy code
 
-## Tech
-- Built with **Unreal Engine 5**  
-- Written in **Blueprints and C++**  
-- Version control via **Git & GitHub**  
+## 🕹️ First Game: **Shards of Aether**
 
----
+`Shards of Aether` is the **first official game** built using the Aetherion engine.  
+It’s a fantasy-action adventure forged in shadows and light — a world where every shard holds a story.
 
-## License
-License: Maidha Jama All Rights Reserved License 2025
+🎮 Explore epic battles, an expansive world, and deep lore.
 
-See the [`LICENSE`](LICENSE) file for full details.  
+## 🚀 Getting Started
 
----
+To run locally:
 
-## Contributing
-Contributions, issues, and feature requests are welcome.  
-Feel free to open a PR or issue in the repo.
-=======
-# Aetherion-
+```bash
+# install a simple dev server if you don’t have one
+npm install -g live-server
+```
+# start the project
+live-server
+Then open the local server link in your browser to view the site.
+
+🧰 Tech Stack
+HTML5 / CSS3 / JavaScript
+
+Parallax + reveal animations
+
+Lightweight engine architecture
+
+Ready for future multiplayer expansion
+
+📜 License
+This project is licensed under the MIT License — feel free to use, modify, and build upon it with proper attribution.
