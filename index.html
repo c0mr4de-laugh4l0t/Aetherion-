@@ -1,56 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shards of Aether</title>
-  <link rel="stylesheet" href="style/main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shards of Aether — Official Site</title>
+  <meta name="description" content="Build. Fight. Survive. Claim the Realm in Shards of Aether — a fast-paced action adventure." />
+  <link rel="stylesheet" href="aetherion/style/main.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23ff4b2b'/%3E%3Ctext x='50' y='62' text-anchor='middle' font-size='56' font-family='sans-serif' fill='white'%3ESA%3C/text%3E%3C/svg%3E">
 </head>
 <body>
-  <header id="hero">
+  <!-- NAV -->
+  <nav class="top-nav" aria-label="Primary">
+    <a href="#hero" class="brand" aria-label="Shards of Aether home">
+      <span class="logo-mark">SA</span>
+      <span class="brand-text">Shards of Aether</span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="#modes">Modes</a></li>
+      <li><a href="#battlepass">Battle Pass</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#media">Media</a></li>
+      <li><a href="#downloads" class="btn btn-small">Download</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero" role="banner">
     <div class="overlay"></div>
     <div class="hero-content">
       <h1>Shards of Aether</h1>
-      <p class="tagline">Enter the realm beyond the veil.</p>
+      <p class="tagline">Build. Fight. Survive. Claim the Realm.</p>
       <div class="hero-buttons">
-        <a href="#about" class="btn">Learn More</a>
-        <a href="#downloads" class="btn btn-outline">Download</a>
+        <a href="#downloads" class="btn">Play Free</a>
+        <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank" rel="noopener" class="btn btn-outline">Watch Trailer</a>
       </div>
     </div>
-  </header>
-
-  <section id="about">
-    <h2>About the Game</h2>
-    <p>Shards of Aether is a fantasy-action adventure forged in shadows and light. Explore a world where every shard holds a story.</p>
-    <ul class="features">
-      <li>⚔️ Epic battles</li>
-      <li>🗺️ Expansive world</li>
-      <li>🧠 Deep lore</li>
-    </ul>
   </section>
 
-  <section id="screenshots">
-    <h2>Gallery</h2>
-    <div class="gallery">
-      <img src="assets/images/screenshot1.png" alt="Screenshot 1">
-      <img src="assets/images/screenshot2.png" alt="Screenshot 2">
-      <img src="assets/images/screenshot3.png" alt="Screenshot 3">
+  <!-- MODES -->
+  <section id="modes">
+    <h2>Game Modes</h2>
+    <div class="card-grid">
+      <article class="card mode-card" style="--bg:url('https://images.unsplash.com/photo-1558981403-c5f9899a28bc?q=80&w=1400&auto=format&fit=crop');">
+        <div class="card-body">
+          <h3>Solo</h3>
+          <p>Drop in alone. Outsmart, outbuild, outlast.</p>
+        </div>
+      </article>
+      <article class="card mode-card" style="--bg:url('https://images.unsplash.com/photo-1520975922329-2179a0bd50b9?q=80&w=1400&auto=format&fit=crop');">
+        <div class="card-body">
+          <h3>Duos</h3>
+          <p>Team up and dominate the battlefield.</p>
+        </div>
+      </article>
+      <article class="card mode-card" style="--bg:url('https://images.unsplash.com/photo-1535223289827-42f1e9919769?q=80&w=1400&auto=format&fit=crop');">
+        <div class="card-body">
+          <h3>Squads</h3>
+          <p>Coordinate with your crew in high-stakes fights.</p>
+        </div>
+      </article>
     </div>
   </section>
 
+  <!-- BATTLE PASS -->
+  <section id="battlepass">
+    <h2>Season: Shattered Realms</h2>
+    <p>Earn exclusive skins, emotes, and shards to unlock ancient power.</p>
+    <div class="perks">
+      <div class="perk">50+ Reward Tiers</div>
+      <div class="perk">Weekly Quests</div>
+      <div class="perk">Mythic Skin Set</div>
+    </div>
+  </section>
+
+  <!-- NEWS / UPDATES -->
+  <section id="news">
+    <h2>Latest News</h2>
+    <div class="carousel" data-carousel>
+      <button class="carousel-nav prev" data-dir="prev" aria-label="Previous">‹</button>
+      <div class="carousel-viewport">
+        <div class="carousel-track">
+          <article class="card news-card">
+            <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop" alt="Patch Notes" />
+            <div class="card-body">
+              <h3>v1.2 Patch Notes</h3>
+              <p>Balance updates, new weapon, and performance boosts.</p>
+            </div>
+          </article>
+          <article class="card news-card">
+            <img src="https://images.unsplash.com/photo-1581090120879-2980f011b2a8?q=80&w=1200&auto=format&fit=crop" alt="Event" />
+            <div class="card-body">
+              <h3>Live Event: Rift Surge</h3>
+              <p>48-hour limited-time mode with unique rewards.</p>
+            </div>
+          </article>
+          <article class="card news-card">
+            <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop" alt="Creator" />
+            <div class="card-body">
+              <h3>Creator Program</h3>
+              <p>Join our partner program and earn exclusive drops.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+      <button class="carousel-nav next" data-dir="next" aria-label="Next">›</button>
+    </div>
+  </section>
+
+  <!-- MEDIA / GALLERY -->
+  <section id="media">
+    <h2>Media</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=1200&auto=format&fit=crop" alt="Screenshot 1" />
+      <img src="https://images.unsplash.com/photo-1605901309584-818e25960a8b?q=80&w=1200&auto=format&fit=crop" alt="Screenshot 2" />
+      <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1200&auto=format&fit=crop" alt="Screenshot 3" />
+    </div>
+  </section>
+
+  <!-- DOWNLOADS -->
   <section id="downloads">
     <h2>Download</h2>
+    <p>Play free on your favorite platform.</p>
     <div class="download-buttons">
       <a href="#" class="btn">Windows</a>
-      <a href="#" class="btn">Mac</a>
-      <a href="#" class="btn">Linux</a>
+      <a href="#" class="btn btn-outline">Mac</a>
+      <a href="#" class="btn btn-outline">Linux</a>
     </div>
   </section>
 
+  <!-- SUBSCRIBE -->
+  <section id="subscribe">
+    <h2>Stay Updated</h2>
+    <form class="subscribe-form" aria-label="Subscribe form">
+      <input type="email" name="email" placeholder="Email address" required />
+      <button type="submit" class="btn">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
   <footer>
-    <p>© 2025 Shards of Aether. All rights reserved.</p>
+    © 2025 Shards of Aether — All Rights Reserved.
   </footer>
 
-  <script src="scripts/main.js"></script>
+  <script src="aetherion/scripts/main.js" defer></script>
+  <!-- No external JS frameworks required -->
 </body>
 </html>
